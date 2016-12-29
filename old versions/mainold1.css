@@ -1,0 +1,722 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: transparent;
+    text-shadow: none;
+}
+
+::selection {
+    background: transparent;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+img {
+    width: 100%;
+    height: auto;
+ }
+
+header {
+
+ }
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Color Theme
+   =================== */
+
+.header-background {
+    border-bottom: 20px solid #000;
+    color: #000;
+    display: block;
+    width: 100%;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid rgba(34,34,34,1);
+}
+
+
+.footer-container,
+.main aside {
+    background: #56963A;
+
+}
+
+.title {
+    color: #56963A;
+}
+
+/* ==============
+    MOBILE
+   ============== */
+
+.header-background {
+    border-bottom: 20px solid #000;
+    /*background-image: url("../img/dog-mobile2.png");*/
+    color: #fff;
+    background-origin: border-box;
+    background-size: cover;
+    background-position: 60% 100%;
+    min-height: calc(100vh - 20px );
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+
+.hide-linebreak {
+  display: none;
+}
+
+.logo {
+    width: 30%;
+    border-radius: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid rgba(34,34,34,1);
+}
+
+.footer-container,
+.main aside {
+    background: #56963A;
+}
+
+.title {
+    color: #000;
+}
+
+
+/* ==============
+   MOBILE: Navigation
+   ============== */
+
+nav {
+ width: 100%;
+ }
+
+.nav-background {
+  background-color: #333;
+ }
+
+.desktop-menu {
+  display: none;
+}
+
+.mobile-menu {
+width: 100%;
+background-color: #333;
+}
+
+#mobile-menu-button {
+  background-position: -166px -95px;
+  background-image: url("../img/sprites.png");
+  width: 42px;
+  height: 30px;
+ }
+
+#menu-button {
+  background-color: rgba(0, 0,0, 0.6);
+  display: block;
+  list-style-type: none;
+ }
+
+ul li {
+
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+    word-wrap: break-word;
+ }
+
+ul li:hover{
+  background: #333;
+  color: #000;
+}
+
+ .dropdown, .dropdown ul {
+  display: none;
+  left: 0;
+  background-color: #000;
+  width: 100%;
+  z-index: 200;
+  padding-top: 15px;
+}
+
+   .dropdown li {
+    display: block;
+    width:100%;
+    padding: 10px 0px;
+    margin: 0px;
+ }
+
+#dd:checked ~ .dropdown  {
+    display: block;
+    z-index: 1000;
+ }
+
+.dropdown-fill:before {
+  content: " ";
+  background-image: url("../img/sprites.png");
+  background-position: -225px -172px;
+  width: 32px;
+  height: 43px;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+ }
+
+.dropdown-fill {
+  content: " ";
+  background-color: #000;
+  height: 100px;
+  position: relative;
+}
+
+.i-submit {
+  margin-top: 2em;
+  background-color: #fff;
+  font-weight: bold;
+  color: #555;
+ }
+
+nav ul {
+    margin: 2em 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    font-size: 1.4em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #fff;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+nav a:hover,
+nav a:visited {
+    color: none;
+}
+
+nav a:hover {
+    color: #bbb;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.header-nav {
+    display: block;
+    position: absolute;
+    z-index: 10000;
+    width: 100%;
+}
+
+.header-main {
+  background-image: url("../img/Food1.jpg");
+  position: relative;
+ }
+
+.header-content {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    opacity: 0.8;
+    background: #fff;
+ }
+
+ .header-content-ul {
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 1em;
+ }
+
+.header-content h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    color: #1F666C;
+/*    color: #fff;*/
+    font-family: 'Amatic SC', cursive, serif;
+    line-height: 1.4em;
+    padding-bottom: .5em;
+ }
+
+.header-content li:before {
+    content: "";
+    background-image: url("../img/sprites.png");
+    background-position: -136px -84px;
+    color: #fff;
+    width: 19px;
+    height: 18px;
+    float: left;
+    margin: 0px 10px 0 0;
+}
+
+.header-content li {
+    color: #56963A;
+    font-size: 1em;
+    line-height: 0.5em;
+    list-style: none;
+
+    padding-bottom: 0.5em;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+
+    width: 100%;
+    display: block;
+    float: left;
+
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive, serif;
+ }
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: #fff;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+.header-content h1 {
+  font-size: 2em;
+  line-height: 1.4em;
+  padding-bottom: .5em;
+}
+
+.header-content li:before {
+    margin: 10px 10px 0 0;
+}
+
+.header-content li {
+  font-size: 1.4em;
+  padding-bottom: 1.6em;
+  padding-right: 1em;
+  padding-left: 1em;
+  line-height: 1.5em;
+}
+
+.dropdown-fill {
+  max-height: 100px;
+}
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+/*    nav ul li {
+        display: inline;
+    }*/
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .header-background {
+    border-bottom: 20px solid #000;
+   /* background-image: url("../img/dog-14.png");*/
+    color: #fff;
+    background-size: cover;
+    min-height: calc(100vh - 20px);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+
+  }
+
+  .desktop-menu {
+    display: inline-block;
+    float: right;
+  }
+
+  nav {
+   width: 100%;
+   display: inline-block;
+   padding-top: 1em;
+   }
+
+  nav a {
+    background-color: transparent;
+  }
+
+
+  .desktop-menu {
+  display: inline-block;
+  background-color: rgba(34,34,34,0.8);
+  white-space: nowrap;
+  margin-left: 1em;
+  }
+
+  .desktop-menu li {
+    display: inline-block;
+    color: rgba(34,34,34,0.8);
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0 px;
+    padding-left: .8em;
+    padding-right: .8em;
+    margin-left: -5px;
+    margin-right: -5px;
+   }
+
+  .desktop-menu li:hover{
+    color: #000;
+  }
+
+
+/*.header-main:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 53.90625%;
+  }*/
+
+
+  .header-main {
+    height: calc(100vh - 32px);
+    max-height: 840px;
+
+    background-image: url("../img/dog-14.png");
+    /*background-position: 40% 100%;*/
+    background-size: cover;
+    position: relative;
+
+    margin-bottom: 0 !important;
+  }
+
+
+  .header-content {
+    opacity: 1;
+    background-color: transparent;
+    float: left;
+   }
+
+  .header-content h1 {
+      text-align: left;
+      width: 100%;
+      padding-left: 1.8em;
+      font-size: 2.5em;
+     /* color: #1F666C;*/
+     color: #fff;
+      font-family: 'Comfortaa', cursive, serif;
+      line-height: 1.2em;
+      padding-bottom: .5em;
+      letter-spacing: 2px;
+  }
+
+  .hide-linebreak {
+    display: block;
+  }
+
+  .header-content-ul {
+      max-height: 100px;
+      min-width: 600px;
+      margin: 0 0;
+      padding-top: 1em;
+  }
+
+  .header-content li {
+      color: #fff;
+      font-size: 1.6em;
+      text-align: left;
+      line-height: 1.4em;
+      width: 40%;
+      display: inline-block;
+      float: left;
+      font-weight: bold;
+      font-family: 'Amatic SC', cursive, serif;
+      white-space: nowrap;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+
+  .header-container {
+      max-height: 1120px;
+      }
+
+  .title {
+      text-align: center;
+  }
+
+  .header-container,
+  .main aside {
+      -webkit-box-shadow: 0 5px 10px #aaa;
+      -moz-box-shadow: 0 5px 10px #aaa;
+       box-shadow: 0 5px 10px #aaa;
+}
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+  .title {
+      float: left;
+      width: 35%;
+  }
+
+  nav {
+      width: 65%;
+      flex-wrap: nowrap;
+  }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+  .main article {
+      float: left;
+      width: 57%;
+  }
+
+  .main aside {
+      float: right;
+      width: 28%;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+      /*  width: 1026px;*/ /* 1140px - 10% for margins */
+      max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: none;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
